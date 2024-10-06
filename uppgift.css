@@ -1,0 +1,906 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+/* -------PAGES--------- */
+
+.pages {
+    width: 1920px;
+    height: 6079px;
+}
+
+
+/* -------PAGE 1--------- */
+
+
+.page1 {
+    width: 1920px;
+    height: 876px;
+    background-color: rgb(255, 248, 249);
+}
+
+.innehåll {
+    width: 1296px;
+    height: 876px;
+    background-color: rgb(255, 248, 249);;
+    margin: auto;
+
+
+}
+
+.navbar {
+    display: flex;
+    /* justify-content: space-between; */
+
+    width: 1296px;
+    height: 76px;
+    align-items: center;
+
+}
+
+.logo {
+    width: 122px;
+    height: 44px;
+}
+
+.menu {
+    width: 68px;
+    height: 26px;
+}
+
+.switch {
+    display: flex;
+    width: 143px;
+    height: 26px;
+}
+
+.btn {
+    width: 140px;
+    height: 36px;
+}
+
+
+.navbarbutton {
+    display: flex;
+    
+}
+
+
+
+.textbuttons {
+    width: 526px;
+    height: 328px;
+
+}
+
+
+.text {
+    width: 526px;
+    height: 228px;
+}
+
+h1{
+    font-size: 50px;
+    margin-block: 2rem;
+}
+
+.p1 {
+    font-size: 20px;
+}
+
+
+.buttons {
+    display: flex;
+    width: 384px;
+    height: 52px;
+    
+
+}
+
+
+.button1 {
+    display: flex;
+    background-color: black;
+    color: white;
+    margin-right: 24px;
+    border-radius: 8px;
+    border: 0;
+    
+}
+
+.button2 {
+    display: flex;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border: 0;
+}
+
+
+
+
+
+
+/* -------PAGE 2--------- */
+
+.page2 {
+    width: 1920px;
+    height: 1104px;
+    background-color: white;
+}
+
+
+
+.innehåll2 {
+    width: 1296px;
+    height: 876px;
+    background-color: white;
+    margin: auto;
+
+
+}
+
+.logotop {
+    display: flex;
+    margin-bottom: 112px;
+   
+
+
+}
+
+.logo2 {
+    width: 1296px;
+    height: 100px;
+    display: flex;
+    margin-top: 100px;
+    
+}
+
+#logo2-1 {
+    width: 196px;
+    height: 100px;
+    margin-right: 24px;
+}
+
+#logo2-2 {
+    width: 196px;
+    height: 100px;
+    margin-right: 24px;
+}
+#logo2-3 {
+    width: 196px;
+    height: 100px;
+    margin-right: 24px;
+}
+#logo2-4 {
+    width: 196px;
+    height: 100px;
+    margin-right: 24px;
+}
+#logo2-5 {
+    width: 196px;
+    height: 100px;
+    margin-right: 24px;
+}
+
+#logo2-6 {
+    width: 196px;
+    height: 100px;
+}
+
+
+.phonetext {
+    width: 1296px;
+    height: 684px;
+    display: flex;
+    flex-direction: row;  /* Ensure horizontal alignment */
+    justify-content: space-between;  /* Ensure space between elements */
+    align-items: center;  /* Center vertically */
+}
+
+.text2 {
+    width: 746px;
+    height: 640px;
+
+}
+
+
+#AF {
+    width: 259px;
+    height: 52px;
+    font-size: 40px;
+
+
+}
+
+
+
+#lorem {
+    width: 746px;
+    height: 58px;
+    color: rgba(147, 151, 173, 1);
+
+}
+
+
+
+.icontext {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Två kolumner med lika stor bredd */
+    grid-gap: 20px; /* Mellanrum mellan boxarna */
+}
+
+.box {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+
+
+#box-1 {
+    width: 345px;
+    height: 118px;
+    display: flex;
+}
+
+#icon1 {
+    width: 60px;
+    height: 60px;
+    margin-right: 24px;
+}
+
+
+.minitext1 {
+    width: 261px;
+    height: 118px;
+    margin-bottom: auto;
+    
+}
+
+#hx1 {
+    width: 261px;
+    height: 28px;
+    margin-bottom: 10px;
+
+    
+}
+
+
+#px1{
+    color: rgba(86, 89, 115, 1);
+    width: 261px;
+    height: 78px;
+    line-height: 1.6; /* Justerar radavståndet, exempelvis 1.6 eller 1.8 */
+}
+
+#px2 {
+    color: rgba(86, 89, 115, 1);
+    width: 261px;
+    height: 78px;
+    line-height: 1.6; /* Justerar radavståndet, exempelvis 1.6 eller 1.8 */
+}
+
+#px3 {
+    color: rgba(86, 89, 115, 1);
+    width: 261px;
+    height: 78px;
+    line-height: 1.6; /* Justerar radavståndet, exempelvis 1.6 eller 1.8 */
+}
+
+#px4 {
+    color: rgba(86, 89, 115, 1);
+    width: 261px;
+    height: 78px;
+    line-height: 1.6; /* Justerar radavståndet, exempelvis 1.6 eller 1.8 */
+}
+
+#px5 {
+    color: rgba(86, 89, 115, 1);
+    width: 261px;
+    height: 78px;
+    line-height: 1.6; /* Justerar radavståndet, exempelvis 1.6 eller 1.8 */
+}
+
+#px6 {
+    color: rgba(86, 89, 115, 1);
+    width: 261px;
+    height: 78px;
+    line-height: 1.6; /* Justerar radavståndet, exempelvis 1.6 eller 1.8 */
+}
+
+
+
+
+
+#box-2 {
+    width: 345px;
+    height: 118px;
+    display: flex;
+}
+
+#icon2 {
+    width: 60px;
+    height: 60px;
+    margin-right: 24px;
+}
+
+
+.minitext2 {
+    width: 261px;
+    height: 118px;
+    margin-bottom: auto;
+    
+}
+
+#hx2 {
+    width: 261px;
+    height: 28px;
+    margin-bottom: 10px;
+
+    
+}
+
+
+#px2 {
+    width: 261px;
+    height: 78px;
+    
+}
+
+
+
+
+#box-3 {
+    width: 345px;
+    height: 118px;
+    display: flex;
+}
+
+#icon3 {
+    width: 60px;
+    height: 60px;
+    margin-right: 24px;
+}
+
+
+.minitext3 {
+    width: 261px;
+    height: 118px;
+    margin-bottom: auto;
+    
+}
+
+#hx3 {
+    width: 261px;
+    height: 28px;
+    margin-bottom: 10px;
+
+    
+}
+
+
+#px3 {
+    width: 261px;
+    height: 78px;
+    
+}
+
+
+
+
+#box-4 {
+    width: 345px;
+    height: 118px;
+    display: flex;
+}
+
+
+#icon4 {
+    width: 60px;
+    height: 60px;
+    margin-right: 24px;
+}
+
+
+
+.minitext4 {
+    width: 261px;
+    height: 118px;
+    margin-bottom: auto;
+    
+}
+
+#hx4 {
+    width: 261px;
+    height: 28px;
+    margin-bottom: 10px;
+
+    
+}
+
+
+#px4 {
+    width: 261px;
+    height: 78px;
+    
+}
+
+
+
+
+
+#box-5 {
+    width: 345px;
+    height: 118px;
+    display: flex;
+}
+
+#icon5 {
+    width: 60px;
+    height: 60px;
+    margin-right: 24px;
+}
+
+
+.minitext5 {
+    width: 261px;
+    height: 118px;
+    margin-bottom: auto;
+    
+}
+
+#hx5 {
+    width: 261px;
+    height: 28px;
+    margin-bottom: 10px;
+
+    
+}
+
+
+#px5 {
+    width: 261px;
+    height: 78px;
+    
+}
+
+
+
+
+
+#box-6 {
+    width: 345px;
+    height: 118px;
+    display: flex;
+}
+
+#icon6 {
+    width: 60px;
+    height: 60px;
+    margin-right: 24px;
+}
+
+
+.minitext6 {
+    width: 261px;
+    height: 118px;
+    margin-bottom: auto;
+    
+}
+
+#hx6 {
+    width: 261px;
+    height: 28px;
+    margin-bottom: 10px;
+
+    
+}
+
+
+#px6 {
+    width: 261px;
+    height: 78px;
+    
+}
+
+
+
+
+
+/* -------PAGE 3--------- */
+
+
+
+
+
+.page3 {
+    width: 1920px;
+    height: 1077px;
+    background-color: white;
+}
+
+
+
+.innehåll3 {
+    width: 1184px;
+    height: 1077px;
+    margin: auto;
+    padding-top: 20px; /* Lägg till extra utrymme högst upp */
+}
+
+
+#headline3 {
+  display: flex;
+  justify-content: center;
+}
+
+
+.telefoner3 {
+    width: 100%; 
+    height: auto; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 0 auto;
+}
+
+.telefoner3 img {
+    max-width: 30%;
+    height: auto; 
+}
+
+
+
+
+.beskrivning3 {
+    width: 636px;
+    height: 98px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: flex-start; 
+    text-align: center; 
+    margin: auto;
+    margin-top: 75px;
+}
+
+#bh3 {
+    width: 636px;
+    height: 34px;
+}
+
+#bp3 {
+    margin-top: auto; 
+    width: 636px;
+    height: 52px;
+}
+
+
+
+
+
+
+
+
+
+/* -------PAGE 4--------- */
+
+.page4 {
+    width: 1920px;
+    height: 1304px;
+    background-color: white;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: flex-start; /* Align content at the top */
+    padding-top: 112px; /* Add space between the top of page4 and innehåll4 */
+    padding-bottom: 112px; /* Add space between the bottom of page4 and innehåll4 */
+}
+
+.innehåll4 {
+    width: 1076px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+
+
+
+/* sektion1 */
+.sektion1 {
+    display: flex;
+    justify-content: space-between; /* Text on the left, image on the right */
+    width: 100%;
+    height: auto;
+    margin-bottom: 80px; /* Add 80px margin between sektion1 and sektion2 */
+}
+
+.text4 {
+    width: 50%; /* Make sure text takes up 50% of the width */
+    margin-top: 100px;
+}
+
+
+#h23 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.img4 {
+    width: 50%; /* Make sure image takes up 50% of the width */
+    display: flex;
+    justify-content: flex-end; /* Align image to the right */
+}
+
+.img4 img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* sektion2 */
+
+.sektion2 {
+    display: flex;
+    justify-content: center; /* Horisontell centrering */
+    align-items: center; /* Vertikal centrering */
+    height: 100vh; /* Justerar höjden så att sektionen tar upp hela viewportens höjd om det behövs */
+}
+
+.img42 {
+    margin-bottom: 100px;
+    width: 50%; /* Make sure image takes up 50% of the width */
+    display: flex;
+    justify-content: flex-start; /* Align image to the left */
+}
+
+.img42 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text42 {
+    width: 50%; /* Make sure text takes up 50% of the width */
+}
+
+.icontext {
+    width: 526px;
+    height: 154px;
+}
+
+.text42 h2 {
+    margin-bottom: 20px; /* Lägger till 20px mellanrum nedanför rubriken */
+}
+
+.icontext {
+    margin-top: 20px; /* Om du vill säkerställa att icontext också har mellanrum från andra element */
+}
+
+.it1 {
+    width: 243px;
+    height: 154px;
+}
+
+.it2 {
+    width: 243px;
+    height: 154px;
+}
+
+#bild1 {
+    margin-bottom: 15px; /* Lägger till 20px mellanrum under bilden */
+}
+
+#bild2 {
+    margin-bottom: 15px;
+}
+
+
+
+
+#knapp4 {
+    margin-top: 40px;
+    border-radius: 0.5rem;
+    color: white;
+    background-color: rgb(111, 76, 248);
+    padding: 1rem;
+    border: 0;
+    width: 159px;
+    height: 44px;
+    font-size: 15px;
+}
+
+#knapp42 {
+    border-radius: 0.5rem;
+    color: white;
+    background-color: rgb(111, 76, 248);
+    padding: 1rem;
+    border: 0;
+    width: 159px;
+    height: 44px;
+    font-size: 15px;
+
+}
+
+
+
+
+
+
+/* -------PAGE 5--------- */
+
+.page5 {
+    background-color: rgba(243, 246, 255, 1);
+    width: 1920px;
+    height: 542px;
+    <img src="images/tjejemoji.jpg" alt="tjejemoji">
+}
+
+
+.innehåll5 {
+    width: 1296px;
+    height: 542px;
+    margin: auto;
+}
+
+
+
+
+.recension-section {
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center; 
+    margin-right: 20px; 
+}
+
+#headline5 {
+    font-size: 40px;
+    margin-left: 20px;
+    margin-bottom: 150px;
+}
+
+.recentioner {
+    display: flex; /* Lägger till flexbox för horisontell layout av recentioner */
+    justify-content: flex-end; /* Flyttar recentionerna längst till höger */
+    width: 856px;
+    height: 350px;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.recention1, .recention2 {
+    background-color: white;
+
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 15px rgba(201, 196, 196, 0.5); /* Skugga med svarta kanter */
+    width: 416px; 
+    height: 350px;
+    margin-right: 24px; /* Lägger till mellanrum mellan recentionerna */
+}
+
+#quotes {
+    display: flex;
+}
+
+
+.emoji-text {
+    display: flex; /* Flexbox för att placera emojin och texten bredvid varandra */
+    align-items: center; /* Vertikal centrering */
+    margin-top: auto; /* Flyttar blocket längst ner */
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.emoji-text1 {
+    display: flex; /* Flexbox för att placera emojin och texten bredvid varandra */
+    align-items: center; /* Vertikal centrering */
+    margin-top: auto; /* Flyttar blocket längst ner */
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+
+#rtext, #rtext1 {
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: rgba(86, 89, 115, 1);
+
+}
+
+
+#rat, #rat1 {
+    margin-left: 30px;
+
+}
+
+#f5, #a5 {
+    color: rgba(147, 151, 173, 1);
+
+}
+
+
+
+
+/* -------PAGE 6--------- */
+
+.page6 {
+    width: 1920px;
+    height: 876px;
+    background-color: pink;
+}
+
+
+
+.ruta1 {
+    width: 1297px;
+    height: 600px;
+
+}
+
+.text6 {
+    width: 417px;
+    height: 380px;
+}
+
+.text61 {
+    width: 746px;
+    height: 600px;
+}
+
+.vibe {
+    width: 196px;
+    height: 166px;
+
+}
+
+.whatsapp {
+    width: 196px;
+    height: 166px;
+
+}
+
+
+#btn6 {
+    color: rgba(99, 102, 241, 1);
+    background-color: white;
+    border: 0;
+
+}
+
+#btn61 {
+    color: rgba(34, 197, 94, 1);
+    background-color: white;
+    border: 0;
+    
+}
+
+
+
+
+.ruta2 {   
+    width: 1296px;
+    height: 222px;
+
+}
+
+
+
+.ruta3 {
+    width: 1920px;
+    height: 130px;
+    color: rgba(147, 151, 173, 1);
+  
+
+    
+}
+
